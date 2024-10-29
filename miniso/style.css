@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    padding-left:13px;
+    display:flex;
+    align-items: center;
+}
+
+.custom-navbar {
+    background-color: white; 
+}
+.navbar-nav {
+    gap:20px;
+}
+
+.main-banner {
+    background-image: url('C:/Users/Astana/Downloads/cinamanroll_miniso.jpg');
+    background-size:contain;
+    background-position: center;
+    padding: 60px 20px;
+    height:380px;
+    display:flex;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    width:100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.main-banner h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bolder;
+
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    text-shadow: 
+    2px 2px 0 #a4bcd8,  
+    8px 8px 5px rgba(0,0,0,0.5);
+}
+
+.main-banner p {
+    font-size: 15px;
+    margin: 20px;
+    color:rgb(6, 65, 110);
+    font-weight: bold;
+}
+
+.main-banner .btn {
+    background-color: white;
+    color: red;
+    margin-left: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    scroll-behavior:smooth;
+    border-color: #ffffff;
+}
+.main-banner .modal-dialog{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: none;
+    text-decoration: none;
+}
+.main-banner .modal-title{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+.products-section {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.products-section h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.product-section a{
+
+    text-decoration: none; 
+   
+}
+.products-section img {
+    width: 230px;
+    height: auto;
+    padding-left: 90px;
+}
+
+.row .col{
+    margin-left: 10px;
+    width:300px;
+} 
+
+.row .col .card-img-top { 
+    width: 90%;
+    border-radius:10px;
+    padding-inline: 1px;
+    padding-top: 10px;
+    padding-left: 27px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    
+}
+
+.product-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}  
+.star {
+    font-size: 1.2rem;
+    color: rgb(47, 47, 47);
+    cursor: pointer;
+}
+.selected {
+    color: gold;
+}
+.star{
+    size:0.1px;
+}
+.product-item img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    text-align: center; 
+    padding-inline: 1px;
+}
+
+.product-item h3 {
+    font-size: 20px;
+    margin: 15px 0 5px;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+.about-section {
+    padding: 70px 50px;
+    background-color: #c0ebf3;
+    text-align: center;
+}
+
+.about-section h2{
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-right:90px;
+    padding-left:90px;
+    font-size:26px;
+}
+
+.secondary-banner {
+    background-image: url('C:/Users/Astana/Downloads/women_background.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 60px 20px;
+    display:flex;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    width:100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secondary-banner h1{
+    font-size: 70px;
+    color:rgb(255, 255, 255);
+}
+
+.card .card-title{
+    color:white;
+    text-align:center;
+    margin-top:150px;
+    font-weight:bolder;
+    font-size:85px;
+    background-attachment:fixed;
+    
+}
+.large-image {
+    width:500px;
+    height:auto;
+    margin-left:10px;
+}
+.small-image {
+    width:450px;
+    height:auto;
+    margin-left:15px;
+}
+.container-lg{
+    font-size:40px;
+    background-color: rgb(242, 252, 255);
+}
+.word2{
+    font-size:80px;
+    font-weight: bolder;
+    font-family: Arial Black;
+}
+.btn{
+    margin-left:65px;
+    font-family:Arial Black;
+}
+.titles{
+    font-family:Cascadia Code;
+}
+.explains{
+    color: #878787;
+    font-size:10px;
+}
+.custom-size {
+    width: 80%;  
+    height: auto; 
+}
+
+.carousel-item {
+    justify-content: center; 
+    align-items: center;    
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+.time-container {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.time-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.time-btn:hover {
+    background-color: #45a049;
+}
+
+
+
