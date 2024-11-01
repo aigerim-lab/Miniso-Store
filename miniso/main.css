@@ -1,0 +1,90 @@
+.ff-banner {
+    background-image: url('C:/Users/Astana/Downloads/bck.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 60px 20px;
+    height:580px;
+    display:flex;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    width:100%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(3, 15, 64);
+    font-family:Arial, Helvetica, sans-serif;
+    
+    flex-direction: column;
+}
+.ff-banner h1{
+    font-size: 60px;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-shadow: 
+    2px 2px 0 #070707,  
+    8px 8px 5px rgba(0,0,0,0.5);
+    
+}
+.red-text{
+    color:red;
+    text-shadow: 
+    2px 2px 0 #f5f5f5,  
+    8px 8px 5px rgba(0,0,0,0.5);
+
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.container {
+    text-align: center;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px var(--secondary-color);
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 200px;
+}
+#icon{
+    width:30px;
+    cursor:pointer;
+}
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color:#212121;
+
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color:#fff; 
+}
