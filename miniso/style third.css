@@ -211,3 +211,27 @@ button:hover {
   --primary-color: #3e3e3e;
   --secondary-color:#fff; 
 }  
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Spacing between items */
+  margin: 0 15px; /* Responsive margin for container */
+}
+
+.category-item {
+  text-align: center;
+  max-width: 90px; /* Reduces size of items */
+  margin: 10px; /* Adds spacing around items */
+}
+
+.category-item img {
+  width: 45px; /* Reduces image size */
+  height: auto;
+  margin-bottom: 8px; /* Adds space below image */
+}
+
+.category-item p {
+  font-size: 14px; /* Adjusts text size */
+  margin: 0;
+}

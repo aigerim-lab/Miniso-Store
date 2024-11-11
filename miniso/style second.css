@@ -266,3 +266,29 @@ footer .date-time-block {
   opacity: 1;
   transform: translateY(0);
 }
+.service {
+  text-align: center;
+  margin-bottom: 40px; /* Adds spacing between the title and items */
+}
+
+.service .service-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Spacing between items */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.service-item {
+  max-width: 300px; /* Optional: Limits the width of each service item */
+  text-align: center;
+  margin: 10px; /* Adds margin around each item */
+}
+
+.service-item img {
+  max-width: 100px; /* Adjust image size as needed */
+  height: auto;
+  margin-bottom: 10px; /* Adds spacing below the image */
+}
+.quote_3 h2{
+  color:var(--secondary-color);
+}

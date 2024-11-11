@@ -37,38 +37,39 @@
         </div>
     </div>
 </nav>
-<div class="category">
-  <hr style="margin:0px 20px 25px;">
-  <h2 id="categoriesHeader" style="cursor: pointer;">- Categories -</h2><br>
-  <div class="product-section"></div>
-
-  <div class="category-container" style="text-align: center; margin:0px 150px;">
-      <div data-category="household">
-          <img src="household_icon.png" style="width:40%; height:auto">
-          <p>Household Items</p>
+<div class="category text-center">
+    <hr class="mx-3 my-4">
+    <h2 id="categoriesHeader" class="mb-4" style="cursor: pointer;">- Categories -</h2>
+    <div class="product-section"></div>
+  
+    <div class="category-container d-flex flex-wrap justify-content-center gap-4 mx-3">
+      <div class="category-item text-center" data-category="household">
+        <img src="household_icon.png" class="img-fluid" style="max-width: 100px; height: auto;">
+        <p>Household Items</p>
       </div>
-      <div data-category="daily-life">
-          <img src="lifeProducts_icon.png" style="width:38%; height:auto">
-          <p>Daily Life Products</p>
+      <div class="category-item text-center" data-category="daily-life">
+        <img src="lifeProducts_icon.png" class="img-fluid" style="max-width: 100px; height: auto;">
+        <p>Daily Life Products</p>
       </div>
-      <div data-category="health-beauty">
-          <img src="beauty_icon.png" style="width:28%; height:auto">
-          <p style="padding-top:8px;">Health & Beauty</p>
+      <div class="category-item text-center" data-category="health-beauty">
+        <img src="beauty_icon.png" class="img-fluid" style="max-width: 80px; height: auto;">
+        <p style="padding-top: 8px;">Health & Beauty</p>
       </div>
-      <div data-category="fashion">
-          <img src="fashion_icon2.png" style="width:25%; height:auto">
-          <p style="padding-top:7px;">Fashion Accessories</p>
+      <div class="category-item text-center" data-category="fashion">
+        <img src="fashion_icon2.png" class="img-fluid" style="max-width: 70px; height: auto;">
+        <p style="padding-top: 7px;">Fashion Accessories</p>
       </div>
-      <div data-category="digital">
-          <img src="phone_icon2.png" style="width:39%; height:auto">
-          <p>Digital Products</p>
+      <div class="category-item text-center" data-category="digital">
+        <img src="phone_icon2.png" class="img-fluid" style="max-width: 100px; height: auto;">
+        <p>Digital Products</p>
       </div>
-      <div data-category="food">
-          <img src="food_icon2.png" style="width:35%; height:auto">
-          <p>Food & Beverage</p>
+      <div class="category-item text-center" data-category="food">
+        <img src="food_icon2.png" class="img-fluid" style="max-width: 90px; height: auto;">
+        <p>Food & Beverage</p>
       </div>
+    </div>
   </div>
-
+  
   <div class="products" id="productList">
       <div class="product-item" data-category="household">
           <img src="c1_minilamp.jpg" alt="Household Item">
