@@ -5,10 +5,59 @@ body {
     background-color: var(--primary-color);
     
 }
+.collapse{
+    font-weight:bold;
+    color:var(--secondary-color);
+}
+.carousel-inner img {
+    max-width: 100%; 
+    max-height: auto; 
+    margin: 0 auto; 
+  }
 .navbar{
     background-color: var(--primary-color); 
     margin:0px 45px;
+    color:var(--secondary-color);
 }
+
+.description1 {
+    margin: 0 auto;
+    height: 350px;
+    width:auto;
+    background-image: url('C:/Users/Astana/Desktop/web/miniso/backImageOfMiniso.png'); /* Adjust the path as needed */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-attachment: fixed;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    font-size: 45px;
+    margin: 0px 20px;
+    font-weight: bolder;
+    color: var(--secondary-color);
+    text-shadow: 
+    8px 8px 5px rgba(0, 0, 0, 0.275);
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.logo-image {
+    width: 350px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto 20px; 
+}
+
+.description2 h1{
+    text-align: center;
+    color: black;
+    margin:30px 100px;
+    font-size: 50px; 
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-weight:200;
+    padding:0px 20px;
+}
+
+
 .container1 {
     display: flex;
     width: 100%;
@@ -25,7 +74,7 @@ body {
 }
     
 .left-side {
-    background-image: url('C:/Users/Astana/Downloads/wbb.jpg');
+    background-image: url('C:/Users/Astana/Desktop/web/miniso/wbb.jpg');
     background-size: cover;
     background-position: center;
     color: var(--primary-color);
@@ -40,18 +89,22 @@ body {
     margin: 0 auto;
     text-align: center;
   }
-  
-  .right-side {
-    background-image: url('C:/Users/Astana/Downloads/miniso.jpg');
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 150px 150px;
-    padding: 20px;
-  }
   .right-side p{
     color:var(--secondary-color);
   }
-  
+
+#initial-container .ripple-btn:hover {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
     
 .hidden {
     display: none;
@@ -61,14 +114,10 @@ button {
     margin-top: 10px;
     padding: 10px 15px;
     border: none;
-    background-color: #007bff;
+    
     color: var(--primary-color);
     border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
 }
 
 input {
@@ -95,7 +144,7 @@ input {
 
 .navbar-nav2 .nav-link {
     text-decoration: none;
-    color: inherit; 
+    color: var(--secondary-color); 
 }
 
 
@@ -110,15 +159,15 @@ input {
     2px 2px 0 #a4bcd8,  
     8px 8px 5px rgba(0,0,0,0.5);
 }
+
 .right-side h3{
-    font-size: 30px;
-    margin: 0;
+    font-size: 45px;
+    margin: 0px 20px;
     font-weight: bold;
-    font-size: 3rem;
     color: var(--secondary-color);
     text-shadow: 
-    
-    8px 8px 5px rgba(0,0,0,0.5);
+    8px 8px 5px rgba(0, 0, 0, 0.275);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .main-banner p {
@@ -156,7 +205,7 @@ input {
 }
 
 .products-section h2 {
-    font-size: 45px;
+    font-size:60px;
     margin-bottom: 40px;
     font-family:Arial, Helvetica, sans-serif;
     color:var(--secondary-color);
@@ -249,11 +298,9 @@ input {
 }
 .about-section {
     padding: 70px 50px;
-    background-color:#2b4d745a;
+    background-color:#ff515118;
     text-align: center;
 }
-
-
 .about-section h2{
     font-weight: lighter;
     font-family:Arial, Helvetica, sans-serif;
@@ -275,11 +322,8 @@ input {
     gap: 10px;
     margin-top: 20px;
 }
-
-
-
 .secondary-banner {
-    background-image: url('C:/Users/Astana/Downloads/women_background.jpg');
+    background-image: url('C:/Users/Astana/Desktop/web/miniso/mini_background.jpg');
     background-size:cover;
     background-position: center;
     padding: 60px 20px;
@@ -294,12 +338,10 @@ input {
     align-items: center;
     flex-direction: column;
 }
-
 .secondary-banner h1{
     font-size: 70px;
     color: var(--primary-color);
 }
-
 .card .card-title{
     color: var(--primary-color);
     text-align:center;
@@ -307,7 +349,6 @@ input {
     font-weight:bolder;
     font-size:85px;
     background-attachment:fixed;
-    
 }
 .large-image {
     width:500px;
@@ -353,51 +394,6 @@ footer {
     color: var(--primary-color);
     text-align: center;
 }
-.time-container {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-.time-btn {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: var(--primary-color);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.time-btn:hover {
-    background-color: #45a049;
-}
-
-body.light-mode {
-    background-color: #ffffff;
-    color: #000000;
-  }
-  
-  body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-  }
-  
-  .dark-mode .navbar, .dark-mode footer {
-    background-color: #333333;
-  }
-  
-  .dark-mode .btn-primary {
-    background-color: #1e1e1e;
-    color: #ffffff;
-  }
-  
-  .dark-mode .container, .dark-mode #authContainer {
-    background-color: #2c2c2c;
-    color: #ffffff;
-  }
-
-
 
   #icon{
     width:30px;
@@ -411,3 +407,108 @@ body.light-mode {
     --primary-color: #3e3e3e;
     --secondary-color:#fff; 
 }  
+.marquee {
+    overflow: hidden;
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    position: relative;
+  }
+  
+  .walking-image {
+    position: absolute;
+    bottom: 0; /* Positions the image at the bottom of the container */
+    width: 100px; /* Set the size of the image */
+    animation: walk 10s linear infinite; /* Slower animation speed */
+}
+
+@keyframes walk {
+    0% {
+        left: 100%; /* Start off-screen to the right */
+    }
+    100% {
+        left: -100px; /* Move off-screen to the left */
+    }
+}
+.news-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size:60px;
+    margin-bottom: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:var(--secondary-color);
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between items */
+}
+
+.news-item {
+    flex: 1;
+    min-width: 300px; /* Adjust as needed */
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: adds a border */
+    border-radius: 5px; /* Optional: rounds corners */
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Optional: rounds corners */
+}
+
+.news-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color:var(--secondary-color);
+}
+
+.news-description {
+    font-size: 0.9em;
+    color:var(--secondary-color);
+}
+.logo-image {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s ease-out forwards;
+}
+
+.description2 h1 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.5s ease-out forwards;
+    animation-delay: 1.2s; /* Delays the animation so it plays after the logo */
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -8,91 +8,151 @@
     <link rel="stylesheet" href="style%20second.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg custom-navbar" style="margin:0px 45px;">
+  <nav class="navbar navbar-expand-lg custom-navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html" style="font-weight: bolder; font-size: 35px; font-family: Arial, Helvetica, sans-serif;color:red;">
-        MINISO</a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav2 me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active"  href="store second.html">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="product.html">PRODUCT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">COMPANY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">NEWS</a>
-          </li>
-          <img src="moon.png" id="icon">
-        </ul>
-        <button type="button" class="btn btn-primary" id="notifyButton" data-bs-toggle="modal" data-bs-target="#exampleModal"
-        style="margin-left:5px;">Subscribe</button>
-    
-
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title fs-5" id="exampleModalLabel">Sign up form</h2>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form id="myForm" onsubmit="return validateForm()">
-                    <div class="mb-3">
-                        <label for="name">Name: *</label>
-                        <input type="text" id="name" name="name" required><br><br>
-                        
-                        <label for="email">Email: *</label>
-                        <input type="email" id="email" name="email" required><br><br>
-
-                        
-                        <span id="errorMessage" class="error"></span><br><br>
-                        
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
-            </div>
+        <a class="navbar-brand" href="index.html" style="font-weight: bolder; font-size: 35px; font-family: Arial, Helvetica, sans-serif; color:red;">
+            MINISO
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav2 ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="store second.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="product.html">PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="account.html">ACCOUNT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <img src="moon.png" id="icon" class="nav-icon" alt="Theme Toggle" style="width: 24px; height: 24px; cursor: pointer;">
+                </li>
+            </ul>
         </div>
-    </div>
-</div>
-</section>
-<script src="subcribe.js"></script>
-        </div>
-      </div>
     </div>
 </nav>
 <br>
-<section class="d-flex flex-wrap" style="margin: 0px 50px;">
-  <div class="left-side col-md-6 p-4">
-    <h1><b>About Us</b></h1>
-      <div class="quote">
-        <h1>MINISO</h1>
-        <div class="content-container">
-          <p>Is a lifestyle product retailer, offering <b>high-quality</b> 
-            household goods, cosmetics, food, and toys at affordable prices.</p>
-          
-          <div class="more-content" id="moreContent">
-            <p>Following 7 years of rapid growth, <b>MINISO</b> has now opened more 
-              than <span class="text-danger">4,200 stores</span> over 
-              <span class="text-danger">80 countries</span> and regions, including 
-              the US, UK, Canada, Australia, Spain, UAE, India, and Mexico.</p>
+<section class="d-flex flex-wrap animate" style="margin: 0px 50px;">
+  <section class="d-flex flex-wrap" style="margin: 0px 50px;">
+    <div class="left-side col-md-6 p-4">
+      <h1><b>About Us</b></h1>
+        <div class="quote">
+          <h1>MINISO</h1>
+          <div class="content-container">
+            <p>Is a lifestyle product retailer, offering <b>high-quality</b> 
+              household goods, cosmetics, food, and toys at affordable prices.</p>
+            
+            <div class="more-content" id="moreContent">
+              <p>Following 7 years of rapid growth, <b>MINISO</b> has now opened more 
+                than <span class="text-danger">4,200 stores</span> over 
+                <span class="text-danger">80 countries</span> and regions, including 
+                the US, UK, Canada, Australia, Spain, UAE, India, and Mexico.</p>
+            </div>
           </div>
-      
-          <button id="readMoreBtn" class="read-more-btn">Read More</button>
         </div>
-      
-        <script src="readMore.js"></script>
       </div>
+          
+    <div class="right-side col-md-6 d-flex align-items-center justify-content-center">
+      <img src="brandimage 2.0.jpg" alt="BrandProfile" class="img-fluid">
     </div>
-        
-  <div class="right-side col-md-6 d-flex align-items-center justify-content-center">
-    <img src="brandimage 2.0.jpg" alt="BrandProfile" class="img-fluid">
-  </div>
+  </section>
+  <br><br><br>
+  <section class="d-flex flex-wrap" style="margin: 0px 50px;">
+    <div class="right-side col-md-6 d-flex align-items-center justify-content-center">
+      <img src="about_us2.jpg" alt="BrandProfile" class="img-fluid">
+    </div>
+    <div class="left-side col-md-6 p-4">
+        <div class="quote_2">
+          <h2><b>ESG Governance</b></h2>
+          <div class="content-container">
+            <p><b>MINISO</b> attaches great importance to sustainable development that social 
+              and governance considerations into daily business operations and management. </p>
+              <p>It is committed to establishing a governance structure with <b>clear responsibilities</b> 
+              which improves the ESG management functions in combination with business development.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <br><br><br>
+  <section class="d-flex flex-wrap" style="margin: 0px 50px;">
+    <div class="left-side col-md-6 p-4">
+        <div class="quote_3">
+          <h2><b>Environment</b></h2>
+          <div class="content-container">
+            <p><b>MINISO</b> adheres to the philosophy of simple, natural and <span class="text-primary">quality life</span> 
+              while developing products.</p>
+              <p> We are committed to creating a better life with sustainable 
+              development by responding to climate change, creating low-carbon products, and practicing 
+              <b>green operations</b>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="right-side col-md-6 d-flex align-items-center justify-content-center">
+        <img src="about_us3.jpg" alt="BrandProfile" class="img-fluid">
+      </div>
+  </section>
+  <br><br><br>
+  <section class="d-flex flex-wrap" style="margin: 0px 50px;">
+    <div class="right-side col-md-6 d-flex align-items-center justify-content-center">
+      <img src="about_us4.jpg" alt="BrandProfile" class="img-fluid">
+    </div>
+    <div class="left-side col-md-6 p-4">
+        <div class="quote_3">
+          <h2><b>Society</b></h2>
+          <div class="content-container">
+            <p><b>MINISO</b> actively participates in public <span class="text-primary">welfare and charity</span>, 
+              assumes the responsibilities of a corporate citizen, fully respects 
+              and <span class="text-danger">protects rights</span> and interests of employees, provides healthy and 
+              safe working environment.
+          </div>
+        </div>
+      </div>
+  </section>
+  <br><br><br>
+  <section class="d-flex flex-wrap" style="margin: 0px 50px;">
+    <div class="left-side col-md-6 p-4">
+        <div class="quote_3">
+          <h2><b>Governance</b></h2>
+          <div class="content-container">
+            <p><b>MINISO</b> have established and continuously improved the internal governance mechanism,
+               always guarding against <span class="text-danger">potential risk points</span>, and strongly supporting the Group's anti-corruption
+               education.</p>
+               <p>Advocacy construction to <b>improve our overall governance level</b> and lay the foundation
+               for the sustainable development of the Group.</p>
+          </div>
+        </div>
+      </div>
+      <div class="right-side col-md-6 d-flex align-items-center justify-content-center">
+        <img src="about_us5.jpg" alt="BrandProfile" class="img-fluid">
+      </div>
+  </section>
 </section>
-<br>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    const elementsToAnimate = document.querySelectorAll('.animate');
+    elementsToAnimate.forEach(el => observer.observe(el));
+});
+
+</script>
 
 <div class="service" style="margin:80px 50px;">
   <h2>Our Services</h2>
@@ -139,26 +199,7 @@
   </div>
 </div>
 <script src="script.js"></script>
-<div class="container" id="contactFormContainer" 
-style="max-width: 500px; margin: 0 auto; padding: 20px; 
-border: 1px solid #ddd; background-color: #ffffff; border-radius: 5px;">
-  <h1 style="text-align: center; color: #333;">Contact Us</h1>
-  <form id="contactForm" style="display: flex; flex-direction: column; gap: 15px;">
-      <label for="name" style="color: #555;">Name:</label>
-      <input type="text" id="name" name="name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
 
-      <label for="email" style="color: #555;">Email:</label>
-      <input type="email" id="email" name="email" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
-
-      <label for="message" style="color: #555;">Message:</label>
-      <textarea id="message" name="message" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px; resize: vertical;"></textarea>
-
-      <button type="submit" style="padding: 10px; background-color: #1d3ed0; color: white; border: none; border-radius: 5px; cursor: pointer;">
-        Submit
-      </button>
-  </form>
-  <div id="responseMessage" class="response-message" style="margin-top: 15px; color: #1744ca;"></div>
-</div>
 
 <script src="script.js"></script>
 
@@ -173,15 +214,10 @@ border: 1px solid #ddd; background-color: #ffffff; border-radius: 5px;">
       <p id="currentTime"></p>
     </div>
     
-    <button id="colorButton" 
-    style="margin-bottom:8px; padding:5px 8px; border-radius:3px; border-style: none;">
-      press me</button>
+    
     <br>
     <p>Koszhanova Aigerim IT2303</p>
 </footer>
-
-<script src="colorButton.js"></script>
-
 <script src="icon.js"></script>
 
 <script src="keyboard.js"></script>
