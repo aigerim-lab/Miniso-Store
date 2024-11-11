@@ -24,7 +24,7 @@ body {
     margin: 0 auto;
     height: 350px;
     width:auto;
-    background-image: url('C:/Users/Astana/Desktop/web/miniso/backImageOfMiniso.png'); /* Adjust the path as needed */
+    background-image: url('backImageOfMiniso.png'); 
     background-size: cover; /* Ensures the image covers the entire area */
     background-attachment: fixed;
     background-position: center; /* Centers the image */
@@ -74,10 +74,10 @@ body {
 }
     
 .left-side {
-    background-image: url('C:/Users/Astana/Desktop/web/miniso/wbb.jpg');
+    background-image: url('wbb.jpg');
     background-size: cover;
     background-position: center;
-    color: var(--primary-color);
+
 }
     
 #authContainer {
@@ -323,7 +323,7 @@ input {
     margin-top: 20px;
 }
 .secondary-banner {
-    background-image: url('C:/Users/Astana/Desktop/web/miniso/mini_background.jpg');
+    background-image: url('mini_background.jpg');
     background-size:cover;
     background-position: center;
     padding: 60px 20px;
